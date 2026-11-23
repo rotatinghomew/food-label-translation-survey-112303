@@ -1,0 +1,5 @@
+slot,day,interviewer,from_version,to_version,person,kind,status,rebook_after
+k1,2026-10-15,I1,V1,V2,p011,盲复测,已预约,2026-10-14
+k2,2026-10-15,I1,V1,V3,,盲复测,开放,
+k3,2026-10-16,I2,V1,V3,p023,访谈,已预约,2026-10-15
+k4,2026-10-16,I3,V3,V3,,访谈,开放,

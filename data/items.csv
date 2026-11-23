@@ -1,0 +1,9 @@
+version,item,position,concept,anchor
+V1,q11,1,总糖,a
+V1,q12,2,添加,b
+V1,q13,3,添加,
+V2,q21,2,总糖,a
+V2,q22,1,添加,b
+V2,q23,3,总糖,
+V3,q31,1,总糖,a
+V3,q32,2,添加,b
