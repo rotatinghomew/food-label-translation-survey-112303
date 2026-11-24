@@ -1,0 +1,1401 @@
+{
+  "validation_notes": [],
+  "withdrawn_response_ids": [
+    "r012b1"
+  ],
+  "deactivated_versions": {
+    "V2": "2026-10-13"
+  },
+  "scale_reports": [
+    {
+      "version_a": "V1",
+      "version_b": "V2",
+      "eligible_population": "全体",
+      "n_persons": 15,
+      "person_fluent_only": true,
+      "observed_orientations": [
+        "V1原版->V2盲测",
+        "V2原版->V1盲测"
+      ],
+      "anchor_reports": [
+        {
+          "version_a": "V1",
+          "version_b": "V2",
+          "anchor": "a",
+          "concept": "总糖",
+          "n_pairs": 9,
+          "n_agree": 5,
+          "n_disagree": 4,
+          "n_correct_to_wrong": 3,
+          "n_wrong_to_correct": 1,
+          "n_missing_partner": 6,
+          "positions": [
+            1,
+            2
+          ],
+          "order_confounded": true,
+          "agree_rate": 0.5555555555555556,
+          "wilson_low": 0.26665129349549305,
+          "wilson_high": 0.8112214789023354,
+          "binom_p_vs_half": 1.0,
+          "status": "失败",
+          "applies_to": "熟练读者（桥接仅覆盖熟练受访者）",
+          "note": "两版锚题位置不同（V1 第 1 题 vs V2 第 2 题），顺序效应与译版效应不可分离；分歧以 V1 正确而 V2 判误解为主（3:1），提示 V2 译法可能压低正确判断；6 人次因撤回或缺失无法配对"
+        },
+        {
+          "version_a": "V1",
+          "version_b": "V2",
+          "anchor": "b",
+          "concept": "添加",
+          "n_pairs": 9,
+          "n_agree": 5,
+          "n_disagree": 4,
+          "n_correct_to_wrong": 2,
+          "n_wrong_to_correct": 2,
+          "n_missing_partner": 6,
+          "positions": [
+            2,
+            1
+          ],
+          "order_confounded": true,
+          "agree_rate": 0.5555555555555556,
+          "wilson_low": 0.26665129349549305,
+          "wilson_high": 0.8112214789023354,
+          "binom_p_vs_half": 1.0,
+          "status": "失败",
+          "applies_to": "熟练读者（桥接仅覆盖熟练受访者）",
+          "note": "两版锚题位置不同（V1 第 2 题 vs V2 第 1 题），顺序效应与译版效应不可分离；6 人次因撤回或缺失无法配对"
+        }
+      ],
+      "discordance_fisher_p": 0.025795074490726662,
+      "separable_order": false,
+      "note": "桥接只覆盖熟练读者，结论不得外推非熟练人群；该版本对所有共同题位置都不同，顺序与译版效应无法分开；实际数据同时含两个方向的桥接：V1原版->V2盲测、V2原版->V1盲测；分歧率显著高于参考桥接 V3->V1（Fisher p=0.026）"
+    },
+    {
+      "version_a": "V3",
+      "version_b": "V1",
+      "eligible_population": "熟练",
+      "n_persons": 5,
+      "person_fluent_only": true,
+      "observed_orientations": [
+        "V3原版->V1盲测"
+      ],
+      "anchor_reports": [
+        {
+          "version_a": "V3",
+          "version_b": "V1",
+          "anchor": "a",
+          "concept": "总糖",
+          "n_pairs": 5,
+          "n_agree": 5,
+          "n_disagree": 0,
+          "n_correct_to_wrong": 0,
+          "n_wrong_to_correct": 0,
+          "n_missing_partner": 0,
+          "positions": [
+            1,
+            1
+          ],
+          "order_confounded": false,
+          "agree_rate": 1.0,
+          "wilson_low": 0.5655175352168252,
+          "wilson_high": 1.0,
+          "binom_p_vs_half": 0.0625,
+          "status": "成立",
+          "applies_to": "熟练读者（桥接仅覆盖熟练受访者）",
+          "note": "全一致但样本仅 5 对，按全一致通道判成立；Wilson 下限 0.566 偏低，补访应优先加厚该桥接"
+        },
+        {
+          "version_a": "V3",
+          "version_b": "V1",
+          "anchor": "b",
+          "concept": "添加",
+          "n_pairs": 4,
+          "n_agree": 4,
+          "n_disagree": 0,
+          "n_correct_to_wrong": 0,
+          "n_wrong_to_correct": 0,
+          "n_missing_partner": 1,
+          "positions": [
+            2,
+            2
+          ],
+          "order_confounded": false,
+          "agree_rate": 1.0,
+          "wilson_low": 0.5101091635454027,
+          "wilson_high": 1.0,
+          "binom_p_vs_half": 0.125,
+          "status": "证据不足",
+          "applies_to": "熟练读者（桥接仅覆盖熟练受访者）",
+          "note": "1 人次因撤回或缺失无法配对；配对数 4 低于最小要求 5，不下等值结论"
+        }
+      ],
+      "discordance_fisher_p": null,
+      "separable_order": true,
+      "note": "桥接只覆盖熟练读者，结论不得外推非熟练人群"
+    }
+  ],
+  "non_anchor_coverage": [
+    {
+      "version": "V1",
+      "item": "q13",
+      "concept": "添加",
+      "position": 3,
+      "anchor_versions": [
+        "V1",
+        "V2",
+        "V3"
+      ],
+      "cross_language_supported": false,
+      "note": "q13 只存在于 V1，无跨版对应题；只能做该译版内的单独估计，禁止据此补跨语言差距"
+    },
+    {
+      "version": "V2",
+      "item": "q23",
+      "concept": "总糖",
+      "position": 3,
+      "anchor_versions": [
+        "V1",
+        "V2",
+        "V3"
+      ],
+      "cross_language_supported": false,
+      "note": "q23 只存在于 V2，无跨版对应题；只能做该译版内的单独估计，禁止据此补跨语言差距"
+    }
+  ],
+  "estimates": [
+    {
+      "round": "r10",
+      "preferred": "山城语",
+      "channel": "现场",
+      "concept": "总糖",
+      "items": [
+        "q31"
+      ],
+      "n_frame": 27,
+      "n_contacted": 27,
+      "n_never_contacted": 0,
+      "n_invited_nonresponse": 2,
+      "n_analysis_only": 8,
+      "n_administered": 25,
+      "n_observed": 25,
+      "n_missing_items": 0,
+      "n_misconception": 8,
+      "n_correct": 17,
+      "weight_sum": 41.666666666666664,
+      "weighted_misconception": 13.333333333333332,
+      "weighted_observed": 41.666666666666664,
+      "weighted_unobserved": 3.3333333333333335,
+      "point": 0.32,
+      "low_bound": 0.2962962962962963,
+      "high_bound": 0.3703703703703703,
+      "comparable_versions": [
+        "V1",
+        "V3"
+      ],
+      "scale_status": "可比",
+      "notes": []
+    },
+    {
+      "round": "r10",
+      "preferred": "山城语",
+      "channel": "现场",
+      "concept": "添加",
+      "items": [
+        "q32"
+      ],
+      "n_frame": 27,
+      "n_contacted": 27,
+      "n_never_contacted": 0,
+      "n_invited_nonresponse": 2,
+      "n_analysis_only": 8,
+      "n_administered": 25,
+      "n_observed": 22,
+      "n_missing_items": 3,
+      "n_misconception": 4,
+      "n_correct": 18,
+      "weight_sum": 41.666666666666664,
+      "weighted_misconception": 6.666666666666667,
+      "weighted_observed": 36.66666666666667,
+      "weighted_unobserved": 8.333333333333334,
+      "point": 0.1818181818181818,
+      "low_bound": 0.14814814814814814,
+      "high_bound": 0.3333333333333333,
+      "comparable_versions": [],
+      "scale_status": "无桥接支撑",
+      "notes": [
+        "添加 在 V3 上无成立的等值桥接，只能报告本译版单独估计，跨语言差距不得直接相减"
+      ]
+    },
+    {
+      "round": "r10",
+      "preferred": "山城语",
+      "channel": "电话",
+      "concept": "总糖",
+      "items": [
+        "q31"
+      ],
+      "n_frame": 25,
+      "n_contacted": 19,
+      "n_never_contacted": 6,
+      "n_invited_nonresponse": 2,
+      "n_analysis_only": 9,
+      "n_administered": 17,
+      "n_observed": 17,
+      "n_missing_items": 0,
+      "n_misconception": 1,
+      "n_correct": 16,
+      "weight_sum": 53.125,
+      "weighted_misconception": 3.125,
+      "weighted_observed": 53.125,
+      "weighted_unobserved": 6.25,
+      "point": 0.058823529411764705,
+      "low_bound": 0.05263157894736842,
+      "high_bound": 0.15789473684210525,
+      "comparable_versions": [
+        "V1",
+        "V3"
+      ],
+      "scale_status": "可比",
+      "notes": [
+        "6 名未接触者在另一邀请框，边界只覆盖已接触框，勿并入无偏区间"
+      ]
+    },
+    {
+      "round": "r10",
+      "preferred": "山城语",
+      "channel": "电话",
+      "concept": "添加",
+      "items": [
+        "q32"
+      ],
+      "n_frame": 25,
+      "n_contacted": 19,
+      "n_never_contacted": 6,
+      "n_invited_nonresponse": 2,
+      "n_analysis_only": 9,
+      "n_administered": 17,
+      "n_observed": 16,
+      "n_missing_items": 1,
+      "n_misconception": 5,
+      "n_correct": 11,
+      "weight_sum": 53.125,
+      "weighted_misconception": 15.625,
+      "weighted_observed": 50.0,
+      "weighted_unobserved": 9.375,
+      "point": 0.3125,
+      "low_bound": 0.2631578947368421,
+      "high_bound": 0.42105263157894735,
+      "comparable_versions": [],
+      "scale_status": "无桥接支撑",
+      "notes": [
+        "添加 在 V3 上无成立的等值桥接，只能报告本译版单独估计，跨语言差距不得直接相减",
+        "6 名未接触者在另一邀请框，边界只覆盖已接触框，勿并入无偏区间"
+      ]
+    },
+    {
+      "round": "r10",
+      "preferred": "普通话",
+      "channel": "现场",
+      "concept": "总糖",
+      "items": [
+        "q11"
+      ],
+      "n_frame": 26,
+      "n_contacted": 26,
+      "n_never_contacted": 0,
+      "n_invited_nonresponse": 3,
+      "n_analysis_only": 0,
+      "n_administered": 23,
+      "n_observed": 23,
+      "n_missing_items": 0,
+      "n_misconception": 8,
+      "n_correct": 15,
+      "weight_sum": 38.333333333333336,
+      "weighted_misconception": 13.333333333333332,
+      "weighted_observed": 38.333333333333336,
+      "weighted_unobserved": 5.0,
+      "point": 0.3478260869565217,
+      "low_bound": 0.30769230769230765,
+      "high_bound": 0.423076923076923,
+      "comparable_versions": [
+        "V1",
+        "V3"
+      ],
+      "scale_status": "可比",
+      "notes": []
+    },
+    {
+      "round": "r10",
+      "preferred": "普通话",
+      "channel": "现场",
+      "concept": "添加",
+      "items": [
+        "q12",
+        "q13"
+      ],
+      "n_frame": 26,
+      "n_contacted": 26,
+      "n_never_contacted": 0,
+      "n_invited_nonresponse": 3,
+      "n_analysis_only": 0,
+      "n_administered": 46,
+      "n_observed": 40,
+      "n_missing_items": 6,
+      "n_misconception": 14,
+      "n_correct": 26,
+      "weight_sum": 38.333333333333336,
+      "weighted_misconception": 23.333333333333336,
+      "weighted_observed": 66.66666666666664,
+      "weighted_unobserved": 20.0,
+      "point": 0.35000000000000014,
+      "low_bound": 0.26923076923076933,
+      "high_bound": 0.5000000000000001,
+      "comparable_versions": [],
+      "scale_status": "无桥接支撑",
+      "notes": [
+        "添加 在 V1 上无成立的等值桥接，只能报告本译版单独估计，跨语言差距不得直接相减"
+      ]
+    },
+    {
+      "round": "r10",
+      "preferred": "普通话",
+      "channel": "电话",
+      "concept": "总糖",
+      "items": [
+        "q11"
+      ],
+      "n_frame": 29,
+      "n_contacted": 22,
+      "n_never_contacted": 7,
+      "n_invited_nonresponse": 1,
+      "n_analysis_only": 0,
+      "n_administered": 21,
+      "n_observed": 21,
+      "n_missing_items": 0,
+      "n_misconception": 5,
+      "n_correct": 16,
+      "weight_sum": 65.625,
+      "weighted_misconception": 15.625,
+      "weighted_observed": 65.625,
+      "weighted_unobserved": 3.125,
+      "point": 0.23809523809523808,
+      "low_bound": 0.22727272727272727,
+      "high_bound": 0.2727272727272727,
+      "comparable_versions": [
+        "V1",
+        "V3"
+      ],
+      "scale_status": "可比",
+      "notes": [
+        "7 名未接触者在另一邀请框，边界只覆盖已接触框，勿并入无偏区间"
+      ]
+    },
+    {
+      "round": "r10",
+      "preferred": "普通话",
+      "channel": "电话",
+      "concept": "添加",
+      "items": [
+        "q12",
+        "q13"
+      ],
+      "n_frame": 29,
+      "n_contacted": 22,
+      "n_never_contacted": 7,
+      "n_invited_nonresponse": 1,
+      "n_analysis_only": 0,
+      "n_administered": 42,
+      "n_observed": 40,
+      "n_missing_items": 2,
+      "n_misconception": 12,
+      "n_correct": 28,
+      "weight_sum": 65.625,
+      "weighted_misconception": 37.5,
+      "weighted_observed": 125.0,
+      "weighted_unobserved": 12.5,
+      "point": 0.3,
+      "low_bound": 0.2727272727272727,
+      "high_bound": 0.36363636363636365,
+      "comparable_versions": [],
+      "scale_status": "无桥接支撑",
+      "notes": [
+        "添加 在 V1 上无成立的等值桥接，只能报告本译版单独估计，跨语言差距不得直接相减",
+        "7 名未接触者在另一邀请框，边界只覆盖已接触框，勿并入无偏区间"
+      ]
+    },
+    {
+      "round": "r10",
+      "preferred": "河湾语",
+      "channel": "现场",
+      "concept": "总糖",
+      "items": [
+        "q21",
+        "q23"
+      ],
+      "n_frame": 27,
+      "n_contacted": 27,
+      "n_never_contacted": 0,
+      "n_invited_nonresponse": 3,
+      "n_analysis_only": 0,
+      "n_administered": 48,
+      "n_observed": 47,
+      "n_missing_items": 1,
+      "n_misconception": 15,
+      "n_correct": 32,
+      "weight_sum": 40.0,
+      "weighted_misconception": 25.000000000000004,
+      "weighted_observed": 78.33333333333334,
+      "weighted_unobserved": 11.666666666666666,
+      "point": 0.3191489361702128,
+      "low_bound": 0.2777777777777778,
+      "high_bound": 0.4074074074074074,
+      "comparable_versions": [
+        "V1",
+        "V3"
+      ],
+      "scale_status": "仅本译版",
+      "notes": [
+        "总糖 在 V2 上无成立的等值桥接，只能报告本译版单独估计，跨语言差距不得直接相减"
+      ]
+    },
+    {
+      "round": "r10",
+      "preferred": "河湾语",
+      "channel": "现场",
+      "concept": "添加",
+      "items": [
+        "q22"
+      ],
+      "n_frame": 27,
+      "n_contacted": 27,
+      "n_never_contacted": 0,
+      "n_invited_nonresponse": 3,
+      "n_analysis_only": 0,
+      "n_administered": 24,
+      "n_observed": 23,
+      "n_missing_items": 1,
+      "n_misconception": 12,
+      "n_correct": 11,
+      "weight_sum": 40.0,
+      "weighted_misconception": 20.0,
+      "weighted_observed": 38.333333333333336,
+      "weighted_unobserved": 6.666666666666667,
+      "point": 0.5217391304347826,
+      "low_bound": 0.4444444444444444,
+      "high_bound": 0.5925925925925927,
+      "comparable_versions": [],
+      "scale_status": "无桥接支撑",
+      "notes": [
+        "添加 在 V2 上无成立的等值桥接，只能报告本译版单独估计，跨语言差距不得直接相减"
+      ]
+    },
+    {
+      "round": "r10",
+      "preferred": "河湾语",
+      "channel": "电话",
+      "concept": "总糖",
+      "items": [
+        "q21",
+        "q23"
+      ],
+      "n_frame": 26,
+      "n_contacted": 19,
+      "n_never_contacted": 7,
+      "n_invited_nonresponse": 2,
+      "n_analysis_only": 0,
+      "n_administered": 34,
+      "n_observed": 32,
+      "n_missing_items": 2,
+      "n_misconception": 16,
+      "n_correct": 16,
+      "weight_sum": 53.125,
+      "weighted_misconception": 50.0,
+      "weighted_observed": 100.0,
+      "weighted_unobserved": 18.75,
+      "point": 0.5,
+      "low_bound": 0.42105263157894735,
+      "high_bound": 0.5789473684210527,
+      "comparable_versions": [
+        "V1",
+        "V3"
+      ],
+      "scale_status": "仅本译版",
+      "notes": [
+        "总糖 在 V2 上无成立的等值桥接，只能报告本译版单独估计，跨语言差距不得直接相减",
+        "7 名未接触者在另一邀请框，边界只覆盖已接触框，勿并入无偏区间"
+      ]
+    },
+    {
+      "round": "r10",
+      "preferred": "河湾语",
+      "channel": "电话",
+      "concept": "添加",
+      "items": [
+        "q22"
+      ],
+      "n_frame": 26,
+      "n_contacted": 19,
+      "n_never_contacted": 7,
+      "n_invited_nonresponse": 2,
+      "n_analysis_only": 0,
+      "n_administered": 17,
+      "n_observed": 15,
+      "n_missing_items": 2,
+      "n_misconception": 8,
+      "n_correct": 7,
+      "weight_sum": 53.125,
+      "weighted_misconception": 25.0,
+      "weighted_observed": 46.875,
+      "weighted_unobserved": 12.5,
+      "point": 0.5333333333333333,
+      "low_bound": 0.42105263157894735,
+      "high_bound": 0.631578947368421,
+      "comparable_versions": [],
+      "scale_status": "无桥接支撑",
+      "notes": [
+        "添加 在 V2 上无成立的等值桥接，只能报告本译版单独估计，跨语言差距不得直接相减",
+        "7 名未接触者在另一邀请框，边界只覆盖已接触框，勿并入无偏区间"
+      ]
+    }
+  ],
+  "language_rollups": [
+    {
+      "preferred": "山城语",
+      "concept": "总糖",
+      "point": 0.17362637362637362,
+      "low_bound": 0.15768463073852296,
+      "high_bound": 0.24950099800399203,
+      "weighted_n": 94.79166666666666,
+      "channels": [
+        "现场",
+        "电话"
+      ],
+      "scale_status": "可比",
+      "notes": []
+    },
+    {
+      "preferred": "山城语",
+      "concept": "添加",
+      "point": 0.25721153846153844,
+      "low_bound": 0.21357285429141717,
+      "high_bound": 0.38323353293413176,
+      "weighted_n": 86.66666666666667,
+      "channels": [
+        "现场",
+        "电话"
+      ],
+      "scale_status": "无桥接支撑",
+      "notes": []
+    },
+    {
+      "preferred": "普通话",
+      "concept": "总糖",
+      "point": 0.27855711422845686,
+      "low_bound": 0.25836431226765794,
+      "high_bound": 0.33085501858736055,
+      "weighted_n": 103.95833333333334,
+      "channels": [
+        "现场",
+        "电话"
+      ],
+      "scale_status": "可比",
+      "notes": []
+    },
+    {
+      "preferred": "普通话",
+      "concept": "添加",
+      "point": 0.31739130434782614,
+      "low_bound": 0.2713754646840149,
+      "high_bound": 0.4163568773234202,
+      "weighted_n": 191.66666666666663,
+      "channels": [
+        "现场",
+        "电话"
+      ],
+      "scale_status": "无桥接支撑",
+      "notes": []
+    },
+    {
+      "preferred": "河湾语",
+      "concept": "总糖",
+      "point": 0.4205607476635514,
+      "low_bound": 0.3592814371257485,
+      "high_bound": 0.5049900199600798,
+      "weighted_n": 178.33333333333334,
+      "channels": [
+        "现场",
+        "电话"
+      ],
+      "scale_status": "仅本译版",
+      "notes": []
+    },
+    {
+      "preferred": "河湾语",
+      "concept": "添加",
+      "point": 0.5281173594132029,
+      "low_bound": 0.43113772455089816,
+      "high_bound": 0.6147704590818363,
+      "weighted_n": 85.20833333333334,
+      "channels": [
+        "现场",
+        "电话"
+      ],
+      "scale_status": "无桥接支撑",
+      "notes": []
+    }
+  ],
+  "cross_language_gaps": [
+    {
+      "concept": "总糖",
+      "language_a": "山城语",
+      "language_b": "普通话",
+      "gap": -0.10493074060208324,
+      "low": -0.1731703878488376,
+      "high": -0.008863314263665906,
+      "status": "可比较",
+      "note": "两译版锚题等值成立，差距按熟练读者桥接口径解释"
+    },
+    {
+      "concept": "总糖",
+      "language_a": "山城语",
+      "language_b": "河湾语",
+      "gap": null,
+      "low": null,
+      "high": null,
+      "status": "尺度未验证",
+      "note": "V3 与 V2 在 总糖 上无成立桥接，差距不得用于培训分配，仅提示待核实"
+    },
+    {
+      "concept": "总糖",
+      "language_a": "普通话",
+      "language_b": "河湾语",
+      "gap": null,
+      "low": null,
+      "high": null,
+      "status": "尺度未验证",
+      "note": "V1 与 V2 在 总糖 上无成立桥接，差距不得用于培训分配，仅提示待核实"
+    },
+    {
+      "concept": "添加",
+      "language_a": "山城语",
+      "language_b": "普通话",
+      "gap": null,
+      "low": null,
+      "high": null,
+      "status": "尺度未验证",
+      "note": "V3 与 V1 在 添加 上无成立桥接，差距不得用于培训分配，仅提示待核实"
+    },
+    {
+      "concept": "添加",
+      "language_a": "山城语",
+      "language_b": "河湾语",
+      "gap": null,
+      "low": null,
+      "high": null,
+      "status": "尺度未验证",
+      "note": "V3 与 V2 在 添加 上无成立桥接，差距不得用于培训分配，仅提示待核实"
+    },
+    {
+      "concept": "添加",
+      "language_a": "普通话",
+      "language_b": "河湾语",
+      "gap": null,
+      "low": null,
+      "high": null,
+      "status": "尺度未验证",
+      "note": "V1 与 V2 在 添加 上无成立桥接，差距不得用于培训分配，仅提示待核实"
+    }
+  ],
+  "round_brief": {
+    "round": "r10",
+    "strata": [
+      {
+        "round": "r10",
+        "preferred": "山城语",
+        "channel": "现场",
+        "eligible": 27,
+        "contacted": 27,
+        "never_contacted": 0,
+        "invited_nonresponse": 2,
+        "valid_respondents": 25,
+        "analysis_only": 8,
+        "misconception_evidence": {
+          "总糖": 8,
+          "添加": 4
+        },
+        "observed_items": {
+          "总糖": 25,
+          "添加": 22
+        },
+        "point": {
+          "总糖": 0.32,
+          "添加": 0.1818181818181818
+        },
+        "bounds": {
+          "总糖": [
+            0.2962962962962963,
+            0.3703703703703703
+          ],
+          "添加": [
+            0.14814814814814814,
+            0.3333333333333333
+          ]
+        },
+        "scale_status": {
+          "总糖": "可比",
+          "添加": "无桥接支撑"
+        },
+        "notes": [
+          "添加 在 V3 上无成立的等值桥接，只能报告本译版单独估计，跨语言差距不得直接相减"
+        ]
+      },
+      {
+        "round": "r10",
+        "preferred": "山城语",
+        "channel": "电话",
+        "eligible": 25,
+        "contacted": 19,
+        "never_contacted": 6,
+        "invited_nonresponse": 2,
+        "valid_respondents": 17,
+        "analysis_only": 9,
+        "misconception_evidence": {
+          "总糖": 1,
+          "添加": 5
+        },
+        "observed_items": {
+          "总糖": 17,
+          "添加": 16
+        },
+        "point": {
+          "总糖": 0.058823529411764705,
+          "添加": 0.3125
+        },
+        "bounds": {
+          "总糖": [
+            0.05263157894736842,
+            0.15789473684210525
+          ],
+          "添加": [
+            0.2631578947368421,
+            0.42105263157894735
+          ]
+        },
+        "scale_status": {
+          "总糖": "可比",
+          "添加": "无桥接支撑"
+        },
+        "notes": [
+          "6 名未接触者在另一邀请框，边界只覆盖已接触框，勿并入无偏区间",
+          "添加 在 V3 上无成立的等值桥接，只能报告本译版单独估计，跨语言差距不得直接相减"
+        ]
+      },
+      {
+        "round": "r10",
+        "preferred": "普通话",
+        "channel": "现场",
+        "eligible": 26,
+        "contacted": 26,
+        "never_contacted": 0,
+        "invited_nonresponse": 3,
+        "valid_respondents": 23,
+        "analysis_only": 0,
+        "misconception_evidence": {
+          "总糖": 8,
+          "添加": 14
+        },
+        "observed_items": {
+          "总糖": 23,
+          "添加": 40
+        },
+        "point": {
+          "总糖": 0.3478260869565217,
+          "添加": 0.35000000000000014
+        },
+        "bounds": {
+          "总糖": [
+            0.30769230769230765,
+            0.423076923076923
+          ],
+          "添加": [
+            0.26923076923076933,
+            0.5000000000000001
+          ]
+        },
+        "scale_status": {
+          "总糖": "可比",
+          "添加": "无桥接支撑"
+        },
+        "notes": [
+          "添加 在 V1 上无成立的等值桥接，只能报告本译版单独估计，跨语言差距不得直接相减"
+        ]
+      },
+      {
+        "round": "r10",
+        "preferred": "普通话",
+        "channel": "电话",
+        "eligible": 29,
+        "contacted": 22,
+        "never_contacted": 7,
+        "invited_nonresponse": 1,
+        "valid_respondents": 21,
+        "analysis_only": 0,
+        "misconception_evidence": {
+          "总糖": 5,
+          "添加": 12
+        },
+        "observed_items": {
+          "总糖": 21,
+          "添加": 40
+        },
+        "point": {
+          "总糖": 0.23809523809523808,
+          "添加": 0.3
+        },
+        "bounds": {
+          "总糖": [
+            0.22727272727272727,
+            0.2727272727272727
+          ],
+          "添加": [
+            0.2727272727272727,
+            0.36363636363636365
+          ]
+        },
+        "scale_status": {
+          "总糖": "可比",
+          "添加": "无桥接支撑"
+        },
+        "notes": [
+          "7 名未接触者在另一邀请框，边界只覆盖已接触框，勿并入无偏区间",
+          "添加 在 V1 上无成立的等值桥接，只能报告本译版单独估计，跨语言差距不得直接相减"
+        ]
+      },
+      {
+        "round": "r10",
+        "preferred": "河湾语",
+        "channel": "现场",
+        "eligible": 27,
+        "contacted": 27,
+        "never_contacted": 0,
+        "invited_nonresponse": 3,
+        "valid_respondents": 24,
+        "analysis_only": 0,
+        "misconception_evidence": {
+          "总糖": 15,
+          "添加": 12
+        },
+        "observed_items": {
+          "总糖": 47,
+          "添加": 23
+        },
+        "point": {
+          "总糖": 0.3191489361702128,
+          "添加": 0.5217391304347826
+        },
+        "bounds": {
+          "总糖": [
+            0.2777777777777778,
+            0.4074074074074074
+          ],
+          "添加": [
+            0.4444444444444444,
+            0.5925925925925927
+          ]
+        },
+        "scale_status": {
+          "总糖": "仅本译版",
+          "添加": "无桥接支撑"
+        },
+        "notes": [
+          "总糖 在 V2 上无成立的等值桥接，只能报告本译版单独估计，跨语言差距不得直接相减",
+          "添加 在 V2 上无成立的等值桥接，只能报告本译版单独估计，跨语言差距不得直接相减"
+        ]
+      },
+      {
+        "round": "r10",
+        "preferred": "河湾语",
+        "channel": "电话",
+        "eligible": 26,
+        "contacted": 19,
+        "never_contacted": 7,
+        "invited_nonresponse": 2,
+        "valid_respondents": 17,
+        "analysis_only": 0,
+        "misconception_evidence": {
+          "总糖": 16,
+          "添加": 8
+        },
+        "observed_items": {
+          "总糖": 32,
+          "添加": 15
+        },
+        "point": {
+          "总糖": 0.5,
+          "添加": 0.5333333333333333
+        },
+        "bounds": {
+          "总糖": [
+            0.42105263157894735,
+            0.5789473684210527
+          ],
+          "添加": [
+            0.42105263157894735,
+            0.631578947368421
+          ]
+        },
+        "scale_status": {
+          "总糖": "仅本译版",
+          "添加": "无桥接支撑"
+        },
+        "notes": [
+          "7 名未接触者在另一邀请框，边界只覆盖已接触框，勿并入无偏区间",
+          "总糖 在 V2 上无成立的等值桥接，只能报告本译版单独估计，跨语言差距不得直接相减",
+          "添加 在 V2 上无成立的等值桥接，只能报告本译版单独估计，跨语言差距不得直接相减"
+        ]
+      }
+    ],
+    "withdrawals": [
+      "r012b1"
+    ],
+    "deactivations": {
+      "V2": "2026-10-13"
+    },
+    "bridge_reports": [
+      {
+        "version_a": "V1",
+        "version_b": "V2",
+        "eligible_population": "全体",
+        "n_persons": 15,
+        "person_fluent_only": true,
+        "observed_orientations": [
+          "V1原版->V2盲测",
+          "V2原版->V1盲测"
+        ],
+        "anchor_reports": [
+          {
+            "version_a": "V1",
+            "version_b": "V2",
+            "anchor": "a",
+            "concept": "总糖",
+            "n_pairs": 9,
+            "n_agree": 5,
+            "n_disagree": 4,
+            "n_correct_to_wrong": 3,
+            "n_wrong_to_correct": 1,
+            "n_missing_partner": 6,
+            "positions": [
+              1,
+              2
+            ],
+            "order_confounded": true,
+            "agree_rate": 0.5555555555555556,
+            "wilson_low": 0.26665129349549305,
+            "wilson_high": 0.8112214789023354,
+            "binom_p_vs_half": 1.0,
+            "status": "失败",
+            "applies_to": "熟练读者（桥接仅覆盖熟练受访者）",
+            "note": "两版锚题位置不同（V1 第 1 题 vs V2 第 2 题），顺序效应与译版效应不可分离；分歧以 V1 正确而 V2 判误解为主（3:1），提示 V2 译法可能压低正确判断；6 人次因撤回或缺失无法配对"
+          },
+          {
+            "version_a": "V1",
+            "version_b": "V2",
+            "anchor": "b",
+            "concept": "添加",
+            "n_pairs": 9,
+            "n_agree": 5,
+            "n_disagree": 4,
+            "n_correct_to_wrong": 2,
+            "n_wrong_to_correct": 2,
+            "n_missing_partner": 6,
+            "positions": [
+              2,
+              1
+            ],
+            "order_confounded": true,
+            "agree_rate": 0.5555555555555556,
+            "wilson_low": 0.26665129349549305,
+            "wilson_high": 0.8112214789023354,
+            "binom_p_vs_half": 1.0,
+            "status": "失败",
+            "applies_to": "熟练读者（桥接仅覆盖熟练受访者）",
+            "note": "两版锚题位置不同（V1 第 2 题 vs V2 第 1 题），顺序效应与译版效应不可分离；6 人次因撤回或缺失无法配对"
+          }
+        ],
+        "discordance_fisher_p": 0.025795074490726662,
+        "separable_order": false,
+        "note": "桥接只覆盖熟练读者，结论不得外推非熟练人群；该版本对所有共同题位置都不同，顺序与译版效应无法分开；实际数据同时含两个方向的桥接：V1原版->V2盲测、V2原版->V1盲测；分歧率显著高于参考桥接 V3->V1（Fisher p=0.026）"
+      },
+      {
+        "version_a": "V3",
+        "version_b": "V1",
+        "eligible_population": "熟练",
+        "n_persons": 5,
+        "person_fluent_only": true,
+        "observed_orientations": [
+          "V3原版->V1盲测"
+        ],
+        "anchor_reports": [
+          {
+            "version_a": "V3",
+            "version_b": "V1",
+            "anchor": "a",
+            "concept": "总糖",
+            "n_pairs": 5,
+            "n_agree": 5,
+            "n_disagree": 0,
+            "n_correct_to_wrong": 0,
+            "n_wrong_to_correct": 0,
+            "n_missing_partner": 0,
+            "positions": [
+              1,
+              1
+            ],
+            "order_confounded": false,
+            "agree_rate": 1.0,
+            "wilson_low": 0.5655175352168252,
+            "wilson_high": 1.0,
+            "binom_p_vs_half": 0.0625,
+            "status": "成立",
+            "applies_to": "熟练读者（桥接仅覆盖熟练受访者）",
+            "note": "全一致但样本仅 5 对，按全一致通道判成立；Wilson 下限 0.566 偏低，补访应优先加厚该桥接"
+          },
+          {
+            "version_a": "V3",
+            "version_b": "V1",
+            "anchor": "b",
+            "concept": "添加",
+            "n_pairs": 4,
+            "n_agree": 4,
+            "n_disagree": 0,
+            "n_correct_to_wrong": 0,
+            "n_wrong_to_correct": 0,
+            "n_missing_partner": 1,
+            "positions": [
+              2,
+              2
+            ],
+            "order_confounded": false,
+            "agree_rate": 1.0,
+            "wilson_low": 0.5101091635454027,
+            "wilson_high": 1.0,
+            "binom_p_vs_half": 0.125,
+            "status": "证据不足",
+            "applies_to": "熟练读者（桥接仅覆盖熟练受访者）",
+            "note": "1 人次因撤回或缺失无法配对；配对数 4 低于最小要求 5，不下等值结论"
+          }
+        ],
+        "discordance_fisher_p": null,
+        "separable_order": true,
+        "note": "桥接只覆盖熟练读者，结论不得外推非熟练人群"
+      }
+    ],
+    "comparability_summary": [
+      "V1->V2 锚题 a（总糖）：失败，一致 5/9，Wilson95% [0.267, 0.811]，适用 熟练读者（桥接仅覆盖熟练受访者）；两版锚题位置不同（V1 第 1 题 vs V2 第 2 题），顺序效应与译版效应不可分离；分歧以 V1 正确而 V2 判误解为主（3:1），提示 V2 译法可能压低正确判断；6 人次因撤回或缺失无法配对",
+      "V1->V2 锚题 b（添加）：失败，一致 5/9，Wilson95% [0.267, 0.811]，适用 熟练读者（桥接仅覆盖熟练受访者）；两版锚题位置不同（V1 第 2 题 vs V2 第 1 题），顺序效应与译版效应不可分离；6 人次因撤回或缺失无法配对",
+      "V3->V1 锚题 a（总糖）：成立，一致 5/5，Wilson95% [0.566, 1.000]，适用 熟练读者（桥接仅覆盖熟练受访者）；全一致但样本仅 5 对，按全一致通道判成立；Wilson 下限 0.566 偏低，补访应优先加厚该桥接",
+      "V3->V1 锚题 b（添加）：证据不足，一致 4/4，Wilson95% [0.510, 1.000]，适用 熟练读者（桥接仅覆盖熟练受访者）；1 人次因撤回或缺失无法配对；配对数 4 低于最小要求 5，不下等值结论"
+    ],
+    "gap_summary": [
+      "总糖：山城语-普通话 差距 -0.105（区间 -0.173 到 -0.009），可进入培训分配",
+      "总糖：山城语-河湾语 尺度未验证，只提示待核实——V3 与 V2 在 总糖 上无成立桥接，差距不得用于培训分配，仅提示待核实",
+      "总糖：普通话-河湾语 尺度未验证，只提示待核实——V1 与 V2 在 总糖 上无成立桥接，差距不得用于培训分配，仅提示待核实",
+      "添加：山城语-普通话 尺度未验证，只提示待核实——V3 与 V1 在 添加 上无成立桥接，差距不得用于培训分配，仅提示待核实",
+      "添加：山城语-河湾语 尺度未验证，只提示待核实——V3 与 V2 在 添加 上无成立桥接，差距不得用于培训分配，仅提示待核实",
+      "添加：普通话-河湾语 尺度未验证，只提示待核实——V1 与 V2 在 添加 上无成立桥接，差距不得用于培训分配，仅提示待核实"
+    ],
+    "applicability": [
+      "V1->V2 桥接只覆盖熟练读者（15 人），等值结论与跨语言差距只适用熟练人群，非熟练人群的单独估计仍有效但不可外推桥接结论",
+      "V1->V2 的顺序与译版效应无法分开，培训材料不能把该版本对上的分歧单独归因于译文",
+      "V3->V1 桥接只覆盖熟练读者（5 人），等值结论与跨语言差距只适用熟练人群，非熟练人群的单独估计仍有效但不可外推桥接结论",
+      "河湾语（V2）没有覆盖本语言合格人群的桥接样本：本语言误解率的单独估计有效，但所有跨语言差距均无桥接支撑，不能由其他语言的题强行补齐"
+    ]
+  },
+  "withdrawal_integrity": [
+    "撤回 r012b1（p012，普通话，V2/q21，盲复测）：该人该批次的桥接配对减少，但其 原版 回答未撤回，普通话 的本语言单独估计不受影响",
+    "仍有原版回答的译版 V1、V2、V3：各自的分层误解估计继续有效；撤回只削弱桥接关系，不取消单独估计"
+  ],
+  "slot_assessments": [
+    {
+      "slot": "k1",
+      "day": "2026-10-15",
+      "interviewer": "I1",
+      "from_version": "V1",
+      "to_version": "V2",
+      "person": "p011",
+      "kind": "盲复测",
+      "status": "已预约",
+      "rebook_after": "2026-10-14",
+      "problems": [
+        "p011 无桥接资格（非熟练/未入桥接抽样），该预约破坏桥接设计",
+        "V2 已于 2026-10-13 停用"
+      ],
+      "comparability_note": "若按原设计执行，只能取得停用版的最后一批证据，不可作为新常规；若改派到仍启用的版本对，V1->V2 这条可比关系不会得到新增样本，既有缺口保留",
+      "usable": false,
+      "locked": false,
+      "uses_deactivated": true
+    },
+    {
+      "slot": "k2",
+      "day": "2026-10-15",
+      "interviewer": "I1",
+      "from_version": "V1",
+      "to_version": "V3",
+      "person": "",
+      "kind": "盲复测",
+      "status": "开放",
+      "rebook_after": null,
+      "problems": [],
+      "comparability_note": "保持原设计：V1->V3 的盲复测 可继续修复该版本对的共同题连接",
+      "usable": true,
+      "locked": false,
+      "uses_deactivated": false
+    },
+    {
+      "slot": "k3",
+      "day": "2026-10-16",
+      "interviewer": "I2",
+      "from_version": "V1",
+      "to_version": "V3",
+      "person": "p023",
+      "kind": "访谈",
+      "status": "已预约",
+      "rebook_after": "2026-10-15",
+      "problems": [
+        "未到允许改期日 2026-10-15，席位继续由 I2 占用",
+        "p023 无桥接资格（非熟练/未入桥接抽样），该预约破坏桥接设计"
+      ],
+      "comparability_note": "保持原设计：V1->V3 的访谈 可继续修复该版本对的共同题连接",
+      "usable": true,
+      "locked": true,
+      "uses_deactivated": false
+    },
+    {
+      "slot": "k4",
+      "day": "2026-10-16",
+      "interviewer": "I3",
+      "from_version": "V3",
+      "to_version": "V3",
+      "person": "",
+      "kind": "访谈",
+      "status": "开放",
+      "rebook_after": null,
+      "problems": [],
+      "comparability_note": "同版 V3 的访谈不产生跨语言桥接，只能补充该译版内部的题间连接与缺失题次，不能修复跨版等值关系",
+      "usable": true,
+      "locked": false,
+      "uses_deactivated": false
+    }
+  ],
+  "seat_inventory": [
+    {
+      "language": "河湾语",
+      "open_seats": 0,
+      "booked_locked": 0,
+      "booked_problem": 1,
+      "slots": [
+        "k1"
+      ]
+    },
+    {
+      "language": "山城语",
+      "open_seats": 2,
+      "booked_locked": 1,
+      "booked_problem": 0,
+      "slots": [
+        "k2",
+        "k3",
+        "k4"
+      ]
+    }
+  ],
+  "followup_plan": {
+    "ranked": [
+      {
+        "person": "p001",
+        "preferred": "普通话",
+        "channel": "电话",
+        "slot": "k2",
+        "interviewer": "I1",
+        "kind": "盲复测",
+        "from_version": "V1",
+        "to_version": "V3",
+        "day": "2026-10-15",
+        "anchor_repair_score": 0.6,
+        "estimate_instability_score": 0.26120857699805067,
+        "scarcity_score": 0.16666666666666666,
+        "total_score": 1.0278752436647174,
+        "reasons": [
+          "版本对 V1<->V3 修复需求 0.6",
+          "山城语 估计边界宽度合计 0.261",
+          "该桥接现有 5 人，稀缺分 0.17"
+        ],
+        "eligible": true,
+        "blocks": []
+      }
+    ],
+    "blocked": [
+      {
+        "slot": "k2",
+        "person": "p002",
+        "blocks": [
+          "非桥接合格人群（熟练限定）",
+          "主版 V2 与席位 V1 不符"
+        ]
+      },
+      {
+        "slot": "k2",
+        "person": "p003",
+        "blocks": [
+          "主版 V3 与席位 V1 不符"
+        ]
+      },
+      {
+        "slot": "k2",
+        "person": "p005",
+        "blocks": [
+          "非桥接合格人群（熟练限定）",
+          "主版 V2 与席位 V1 不符"
+        ]
+      },
+      {
+        "slot": "k2",
+        "person": "p006",
+        "blocks": [
+          "主版 V3 与席位 V1 不符"
+        ]
+      },
+      {
+        "slot": "k2",
+        "person": "p008",
+        "blocks": [
+          "非桥接合格人群（熟练限定）",
+          "主版 V2 与席位 V1 不符"
+        ]
+      },
+      {
+        "slot": "k4",
+        "person": "p001",
+        "blocks": [
+          "主版 V1 与席位 V3 不符"
+        ]
+      },
+      {
+        "slot": "k4",
+        "person": "p002",
+        "blocks": [
+          "非桥接合格人群（熟练限定）",
+          "主版 V2 与席位 V3 不符"
+        ]
+      },
+      {
+        "slot": "k4",
+        "person": "p004",
+        "blocks": [
+          "主版 V1 与席位 V3 不符",
+          "已做过盲测，不能再安排展示答案访谈"
+        ]
+      },
+      {
+        "slot": "k4",
+        "person": "p005",
+        "blocks": [
+          "非桥接合格人群（熟练限定）",
+          "主版 V2 与席位 V3 不符"
+        ]
+      },
+      {
+        "slot": "k4",
+        "person": "p007",
+        "blocks": [
+          "主版 V1 与席位 V3 不符"
+        ]
+      }
+    ],
+    "pool_sizes": {
+      "k2": 51,
+      "k4": 32
+    },
+    "skipped_slots": [
+      {
+        "slot": "k4",
+        "reason": "V3->V3 为同版访谈，不产生跨语言桥接，无法修复关键题间连接，仅可作本版补题资源"
+      }
+    ]
+  },
+  "training_readiness": [
+    {
+      "concept": "总糖",
+      "language_a": "山城语",
+      "language_b": "普通话",
+      "gap": -0.10493074060208324,
+      "low": -0.1731703878488376,
+      "high": -0.008863314263665906,
+      "status": "可比较",
+      "note": "两译版锚题等值成立，差距按熟练读者桥接口径解释",
+      "training_use": "可用于培训分配",
+      "condition": "等值桥接成立，且桥接覆盖人群与培训对象一致（熟练读者）"
+    },
+    {
+      "concept": "总糖",
+      "language_a": "山城语",
+      "language_b": "河湾语",
+      "gap": null,
+      "low": null,
+      "high": null,
+      "status": "尺度未验证",
+      "note": "V3 与 V2 在 总糖 上无成立桥接，差距不得用于培训分配，仅提示待核实",
+      "training_use": "仅提示待核实",
+      "condition": "V1->V2/a=失败；V1->V2/b=失败；V3->V1/b=证据不足"
+    },
+    {
+      "concept": "总糖",
+      "language_a": "普通话",
+      "language_b": "河湾语",
+      "gap": null,
+      "low": null,
+      "high": null,
+      "status": "尺度未验证",
+      "note": "V1 与 V2 在 总糖 上无成立桥接，差距不得用于培训分配，仅提示待核实",
+      "training_use": "仅提示待核实",
+      "condition": "V1->V2/a=失败；V1->V2/b=失败；V3->V1/b=证据不足"
+    },
+    {
+      "concept": "添加",
+      "language_a": "山城语",
+      "language_b": "普通话",
+      "gap": null,
+      "low": null,
+      "high": null,
+      "status": "尺度未验证",
+      "note": "V3 与 V1 在 添加 上无成立桥接，差距不得用于培训分配，仅提示待核实",
+      "training_use": "仅提示待核实",
+      "condition": "V1->V2/a=失败；V1->V2/b=失败；V3->V1/b=证据不足"
+    },
+    {
+      "concept": "添加",
+      "language_a": "山城语",
+      "language_b": "河湾语",
+      "gap": null,
+      "low": null,
+      "high": null,
+      "status": "尺度未验证",
+      "note": "V3 与 V2 在 添加 上无成立桥接，差距不得用于培训分配，仅提示待核实",
+      "training_use": "仅提示待核实",
+      "condition": "V1->V2/a=失败；V1->V2/b=失败；V3->V1/b=证据不足"
+    },
+    {
+      "concept": "添加",
+      "language_a": "普通话",
+      "language_b": "河湾语",
+      "gap": null,
+      "low": null,
+      "high": null,
+      "status": "尺度未验证",
+      "note": "V1 与 V2 在 添加 上无成立桥接，差距不得用于培训分配，仅提示待核实",
+      "training_use": "仅提示待核实",
+      "condition": "V1->V2/a=失败；V1->V2/b=失败；V3->V1/b=证据不足"
+    }
+  ]
+}
